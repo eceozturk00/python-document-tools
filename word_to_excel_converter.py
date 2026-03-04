@@ -129,7 +129,7 @@ def main():
         raise SystemExit("No content found in the document.")
 
     write_xlsx(items, args.output)
-    print(f"✅ Done! Wrote {len(items)} rows to: {args.output}")
+    print(f" Done! Wrote {len(items)} rows to: {args.output}")
 
 
 if __name__ == "__main__":
